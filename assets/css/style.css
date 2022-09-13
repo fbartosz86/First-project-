@@ -4,6 +4,8 @@
     border: none;
 }
 
+/* Header */
+
 #header{
     height:200px;
     background-color: rgb(75, 75, 75);
@@ -44,4 +46,31 @@
 #menu a:hover {
     border-bottom:1px solid white;
     font-size:160%;
+}
+
+/* Main picture  */
+
+#pic-1 {
+    background:url('../images/1.jpg') no-repeat center center;
+    background-color: black;
+    height:700px;
+    width:100%;
+    color: transparent;
+    padding-top:20px;
+    animation-name: section1-zoom;
+    animation-duration:5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes section1-zoom {
+    from{
+        transform:scale(0.9);
+    }
+    to{
+        transform:scale(1);
+    }
+ }
+
+body{
+    background-color: black;
 }
