@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding:0;
+    border: none;
+}
+
+#header{
+    height:200px;
+    background-color: rgb(75, 75, 75);
+    color: #ff7b00;
+    padding-top:50px;
+    padding-bottom:20px;
+}
+
+#title {
+    text-align: center;
+    font-size:350%;
+    font-style: italic;
+    padding-top:20px;
+}
+
+#menu {
+    margin-top:100px;
+    text-align: center;
+}
+
+#menu, #title {
+    line-height:30px;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    margin-right:30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 150%;
+   
+}
+
+#menu a:hover {
+    border-bottom:1px solid white;
+    font-size:160%;
+}
