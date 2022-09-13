@@ -7,33 +7,43 @@
 /* Header */
 
 #header{
-    height:200px;
+    
     background-color: rgb(75, 75, 75);
     color: #ff7b00;
     padding-top:50px;
-    padding-bottom:20px;
+    padding-bottom:50px;
 }
 
-#title {
-    text-align: center;
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+#logo {
     font-size:350%;
-    font-style: italic;
-    padding-top:20px;
+    float:left;
+    margin-left:30px;
+        color: #ff7b00;
+    
 }
 
 #menu {
-    margin-top:100px;
-    text-align: center;
+      text-align: center;
 }
 
-#menu, #title {
+#menu, #logo {
     line-height:30px;
+}
+/* to revers order of the nav  bar */
+nav{
+    float: right;
 }
 
 #menu li {
-    display: inline;
+    float:left;
     list-style-type: none;
     margin-right:30px;
+    
 }
 
 #menu a {
@@ -52,15 +62,19 @@
 
 #pic-1 {
     background:url('../images/1.jpg') no-repeat center center;
-    background-color: black;
     height:700px;
     width:100%;
     color: transparent;
     padding-top:20px;
+
+    /* animation zoom for when page is loading*/
+ 
     animation-name: section1-zoom;
     animation-duration:5s;
     animation-fill-mode: forwards;
 }
+
+/* level of zoom */
 
 @keyframes section1-zoom {
     from{
