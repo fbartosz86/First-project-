@@ -2,13 +2,12 @@
     margin:0;
     padding:0;
     border: none;
+    background-color: #252525;
 }
 
 /* Header */
 
 #header{
-    
-    background-color: rgb(75, 75, 75);
     color: #ff7b00;
     padding-top:50px;
     padding-bottom:50px;
@@ -93,7 +92,7 @@ body{
 /* footer */
 
 footer {
-    height:220px;
+    height:100px;
  }
 
 .social {
@@ -107,8 +106,9 @@ footer {
 .social i {
     font-size:300%;
     margin:1%;
-    padding:3%;
+    padding:1%;
     color:#ff7b00;
+    border-radius: 50%;
 }
 
 i:hover {
