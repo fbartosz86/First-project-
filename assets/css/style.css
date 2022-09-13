@@ -72,5 +72,31 @@
  }
 
 body{
-    background-color: black;
+    background-color:
+}
+
+/* footer */
+
+footer {
+    height:220px;
+ }
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size:300%;
+    margin:1%;
+    padding:3%;
+    color:#ff7b00;
+}
+
+i:hover {
+    background-color:#ff7b00;
+    color: white;
 }
