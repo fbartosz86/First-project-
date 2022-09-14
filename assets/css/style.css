@@ -37,12 +37,13 @@ h1{
 /* to revers order of the nav  bar */
 nav{
     float: right;
+   
 }
 
 #menu li {
     float:left;
     list-style-type: none;
-    margin-right:30px;
+    margin-right:50px;
     
 }
 
@@ -50,13 +51,14 @@ nav{
     text-decoration: none;
     color: inherit;
     font-size: 150%;
-   
+    
 }
 
 #menu a:hover {
-    border-bottom:1px solid white;
-    font-size:160%;
-}
+    border-bottom:1px solid #ff7b00;
+      text-shadow: 0 0 8px #ff7b00;
+   }
+
 
 /* Main picture  */
 
@@ -113,5 +115,5 @@ footer {
 
 i:hover {
     background-color:#ff7b00;
-    color: white;
+    color:#252525;;
 }
