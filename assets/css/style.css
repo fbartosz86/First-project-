@@ -22,7 +22,7 @@ h1{
     font-size:350%;
     float:left;
     margin-left:30px;
-        color: #ff7b00;
+    color: #ff7b00;
     
 }
 
@@ -66,7 +66,7 @@ nav{
     background:url('../images/1.jpg') no-repeat center center;
     height:700px;
     width:100%;
-    background-color: black;
+    background-color: #252525;
     padding-top:20px;
 
     /* animation zoom for when page is loading*/
